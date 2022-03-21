@@ -35,14 +35,45 @@
 // console.log(jumlahNama)
 
 // menggunakan arrow fuction
-const mahasiswa = ['Kiki Agustin', 'Mega Kusmayati', 'David Abdul Ajid'];
+// const mahasiswa = ['Kiki Agustin', 'Mega Kusmayati', 'David Abdul Ajid'];
 
 // let jumlahNama = mahasiswa.map(nama => nama.length);
 // console.log(jumlahNama)
 
 // mengembalikan object
-let jumlahNama = mahasiswa.map(nama => ({
-    nama,
-    jmlHurup: nama.length
-}))
-console.table(jumlahNama);
+// let jumlahNama = mahasiswa.map(nama => ({
+//     nama,
+//     jmlHurup: nama.length
+// }))
+// console.table(jumlahNama);
+
+
+// Constraction function
+// const Mahasiswa = function () {
+//     this.nama = 'Kiki Agustin';
+//     this.umur = 33;
+//     this.sayHello = function () {
+//         console.log(`Hallo nama saya ${this.nama} umu saya adalah ${this.umur} `);
+//     }
+// }
+
+// let kiki = new Mahasiswa();
+
+
+
+// Contoh kasus sederhana
+// const Mahasiswa = function () {
+//     this.nama = 'Kiki Agustin';
+//     this.umur = 23;
+//     this.sayHello = function () {
+//         console.log(`Hallo nama saya ${this.nama} umur saya adalah ${this.umur} `);
+//     }
+
+//     setInterval(() => {
+//         console.log(this.umur++);
+//     }, 500);
+
+// }
+
+// let kiki = new Mahasiswa();
+
