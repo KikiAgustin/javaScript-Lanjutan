@@ -1,0 +1,23 @@
+[
+    {
+        "nama": "Kiki Agustin",
+        "nrp": "20110150",
+        "email": "kikiagustin62@gmail.com",
+        "jurusan": "Teknik Informatika",
+        "idDosenWali": 1
+    },
+    {
+        "nama": "Mega Kusmayati",
+        "nrp": "20110151",
+        "email": "megakusmayati@gmail.com",
+        "jurusan": "Teknik Informatika",
+        "idDosenWali": 2
+    },
+    {
+        "nama": "David Abdul Aziz",
+        "nrp": "20110152",
+        "email": "davidabdul@gmail.com",
+        "jurusan": "Teknik Informatika",
+        "idDosenWali": 1
+    }
+]
